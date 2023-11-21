@@ -1,0 +1,54 @@
+:root {
+	--backgroundColor-red: #bbd6f3;
+	--padding-smal: 0.5em;
+}
+
+body {
+	margin: 0;
+	background-color: #ff0000;
+	background-color: var(--backgroundColor-red);
+}
+
+/* HEADER */
+.header {
+	position: sticky;
+	top: 0;
+	min-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fdfdfd;
+	border-bottom: 2px solid black;
+	padding: 1em;
+}
+
+.nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+	list-style-type: none;
+	gap: 1em;
+	margin-left: 0;
+}
+
+.section {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+}
+
+.footer {
+	min-width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fdfdfd;
+	padding: 1em;
+}
